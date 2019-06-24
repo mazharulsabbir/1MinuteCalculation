@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1037218419880",
+    "firebase_url": "https://minute-calculation-cd147.firebaseio.com",
+    "project_id": "minute-calculation-cd147",
+    "storage_bucket": "minute-calculation-cd147.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037218419880:android:cca21313fa2071a9",
+        "android_client_info": {
+          "package_name": "com.wonder.sabbir.robin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037218419880-0712g87uv0sj318vpg8mr9s64ag1rl8i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wonder.sabbir.robin",
+            "certificate_hash": "196069719785d1bfa290bf66f83bccd490af9644"
+          }
+        },
+        {
+          "client_id": "1037218419880-n8v2u9rp03k848n8tcdh1b3m6hj9faba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6y06PGYabl2LHvoh-XLKIEHixZ3cB2-k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037218419880-n8v2u9rp03k848n8tcdh1b3m6hj9faba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

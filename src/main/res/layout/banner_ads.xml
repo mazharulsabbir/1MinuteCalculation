@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.AdView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/adView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    ads:adSize="BANNER"
+    ads:adUnitId="ca-app-pub-4281616948904810/3808195333">
+
+    <!-- Interstitial Ads: ca-app-pub-2092364131947527/3586101699 -->
+    <!-- Reward Video Ads: ca-app-pub-2092364131947527/8150078955 -->
+
+</com.google.android.gms.ads.AdView>

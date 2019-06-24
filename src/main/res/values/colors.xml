@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fefefe</color>
+    <color name="colorPrimaryDark">#fefefe</color>
+    <color name="colorAccent">#1d2c40</color>
+    <color name="deepPurpbe">#c7ebf7</color>
+    <color name="lightPurpbe">#e3f0f5</color>
+    <color name="lightGray">#ededed</color>
+    <color name="colorToolbar">#194678</color>
+    <color name="textColor">#13162b</color>
+    <color name="headingColor">#262836</color>
+    <color name="colorRed">#dc021f</color>
+    <color name="colorBlue">#0c85ff</color>
+    <color name="colorRoundCorner">#dc6dc82a</color>
+</resources>

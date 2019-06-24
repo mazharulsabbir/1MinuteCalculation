@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/l_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".Play.Sub">
+
+    <include layout="@layout/toolbar_custom" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/l_sub2"
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:background="@color/colorPrimaryDark"
+            android:padding="5dp">
+
+
+            <TextView
+                android:id="@+id/tv_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/progressBar"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/nunito_regular"
+                android:text="Score : 0"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/textColor"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_timeramaining"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/progressBar"
+                android:layout_alignParentStart="true"
+                android:fontFamily="@font/nunito_regular"
+                android:text="Time Remaining : 0 seconds"
+                android:textAlignment="viewStart"
+                android:textColor="@color/textColor"
+                android:textSize="14sp" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:clickable="false"
+                android:max="60"
+                android:min="0"
+                android:progressBackgroundTint="@color/colorPrimaryDark"
+                android:progressTint="#dd4b4b" />
+
+            <TextView
+                android:id="@+id/tv_quesshow"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="22dp"
+                android:background="@drawable/design_ques_show_back"
+                android:fontFamily="@font/nunito_regular"
+                android:gravity="center"
+                android:text="000 + 000 = ?"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btn_1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/circle_btn_back"
+                android:fontFamily="@font/nunito_regular"
+                android:text="0"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn_4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/circle_btn_back"
+                android:fontFamily="@font/nunito_regular"
+                android:padding="10dp"
+                android:text="0"
+                android:textSize="24sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/circle_btn_back"
+                android:fontFamily="@font/nunito_regular"
+                android:text="0"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn_2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/circle_btn_back"
+                android:fontFamily="@font/nunito_regular"
+                android:text="0"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/banner_ads" />
+    </RelativeLayout>
+
+
+</LinearLayout>

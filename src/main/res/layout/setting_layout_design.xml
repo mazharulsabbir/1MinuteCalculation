@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_custom"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+
+        <EditText
+            android:id="@+id/updateName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:drawableLeft="@drawable/ic_person_fill"
+            android:ems="10"
+            android:fontFamily="@font/dosis"
+            android:hint="First Name"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColorLink="@color/colorBlue"
+            android:textCursorDrawable="@android:color/white"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:drawableLeft="@drawable/ic_person_fill"
+            android:ems="10"
+            android:fontFamily="@font/dosis"
+            android:hint="Last Name"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColorLink="@color/colorBlue"
+            android:textCursorDrawable="@android:color/white"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:drawableLeft="@drawable/ic_email"
+            android:ems="10"
+            android:fontFamily="@font/dosis"
+            android:hint="Email Adress"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColorLink="@color/colorBlue"
+            android:textCursorDrawable="@android:color/white"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:drawableLeft="@drawable/ic_date"
+            android:ems="10"
+            android:fontFamily="@font/dosis"
+            android:hint="Birth Date"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColorLink="@color/colorBlue"
+            android:textCursorDrawable="@android:color/white"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="9dp"
+                android:drawableLeft="@drawable/ic_flag"
+                android:fontFamily="@font/dosis"
+                android:gravity="center"
+                android:text="Country"
+                android:textColor="@color/textColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:padding="5dp"></Spinner>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="3.5dp"
+            android:background="@android:color/darker_gray"
+            android:backgroundTint="@android:color/darker_gray" />
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:drawableLeft="@drawable/ic_wc"
+            android:fontFamily="@font/dosis"
+            android:gravity="center_vertical"
+            android:text="Gender"
+            android:textColor="@color/textColor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:checkedButton="@+id/radioButton"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis"
+                android:text="Female" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="3.5dp"
+            android:background="@android:color/darker_gray"
+            android:backgroundTint="@android:color/darker_gray" />
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/button_login_style"
+            android:fontFamily="@font/dosis"
+            android:gravity="center"
+            android:onClick="profileUpdate"
+            android:padding="10dp"
+            android:text="Save"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textCursorDrawable="@android:color/white"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <include layout="@layout/banner_ads" />
+
+</LinearLayout>

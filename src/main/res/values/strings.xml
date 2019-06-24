@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">1 Minute Calculation</string>
+    <string name="interestitialAds">ca-app-pub-4281616948904810/3580130477</string>
+
+    <string name="addition">Addition</string>
+    <string name="subtraction">Subtraction</string>
+    <string name="score_0">Score: 0</string>
+    <string name="multiplication">Multiplication</string>
+    <string name="division">Division</string>
+    <string name="power">power</string>
+    <string name="square_root">Square Root</string>
+    <string name="factorial">Factorial</string>
+    <string name="random">Random</string>
+
+    <string name="high_score_earned"></string>
+    <string name="play">Locked</string>
+
+    <string name="lavel_name">Laval 1</string>
+    <string name="lavel_name2">Laval 2</string>
+    <string name="lavel_name3">Laval 3</string>
+    <string name="lavel_name4">Laval 4</string>
+    <string name="lavel_name5">Laval 5</string>
+    <string name="lavel_name6">Laval 6</string>
+    <string name="lavel_name7">Laval 7</string>
+    <string name="lavel_name8">Laval 8</string>
+    <string name="lavel_name9">Laval 9</string>
+    <string name="lavel_name10">Laval 10</string>
+</resources>
